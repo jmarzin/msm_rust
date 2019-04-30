@@ -1,0 +1,7 @@
+[package]
+name = "msm_rust"
+version = "0.1.0"
+authors = ["jmarzin <jacques.marzin@free.fr>"]
+edition = "2018"
+
+[dependencies]
