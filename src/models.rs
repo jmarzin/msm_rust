@@ -1,6 +1,7 @@
 use diesel::pg::types::date_and_time::PgTimestamp;
 use diesel::pg::types::floats::PgNumeric;
 
+
 #[derive(Queryable)]
 pub struct traces {
     id: i64,
