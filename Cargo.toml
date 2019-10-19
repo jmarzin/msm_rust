@@ -5,3 +5,6 @@ authors = ["jmarzin <jacques.marzin@free.fr>"]
 edition = "2018"
 
 [dependencies]
+actix-web = "0.7"
+diesel = { version = "1.0.0", features = ["postgres", "r2d2"] }
+dotenv = "0.10"
